@@ -1,0 +1,65 @@
+h1{
+  font-family: 'Kalnia', serif;
+  color: #81187d
+}
+
+input[type]{
+  font-size: 20px;
+  border: 5px solid #e495ea;
+  border-radius: 30px;
+  width: 400px;
+  text-align: left;
+}
+
+#mobile_no{
+  width: 330px;
+}
+
+input[type="submit"]{
+  background-color: #ffb8f5;;
+  text-align: center;
+}
+
+input[type="submit"]:hover{
+  font-size: 30px;
+}
+
+label{
+  text-align: justify;
+}
+
+*{
+  font-family: 'Afacad', sans-serif;
+  text-align: center;
+}
+.form{
+  position: relative;
+  top: 60px;
+  background-color: #f7e8fd;
+}
+
+.box{
+  background-color: #ffe9c2;
+}
+
+#num{
+  border-radius: 20px;
+  height: 40px;
+  width: 70px;
+  border: 4px solid #e495ea;
+}
+
+
+.gender{
+  position: relative;
+  left: 550px;
+ width: 400px;
+  border: 5px dashed #e495ea;
+  text-align: left;
+  border-radius: 30px;
+}
+
+.para input[type="radio"]{
+  word-spacing: normal;
+}
+

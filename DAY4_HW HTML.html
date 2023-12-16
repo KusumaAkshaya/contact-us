@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <title> MY WEB </title>
+    <link rel="stylesheet" href="style-3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kalnia&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital@1&display=swap" rel="stylesheet">
+    <style>
+      #name:label {
+        text-align: left;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="form">
+    <h1 style="text-align: center;" > ..CONTACT US..</h1>
+    
+ <form>
+  
+     <label for="name"> Your Name (required): </label> 
+<br>
+     <input type="text" id="name" placeholder="Enter your name" required> <br> 
+   <br>
+   <label for="email"> Your Email (required): </label>
+   <br>
+   <input type="text" id="email" placeholder="Enter your email" required> <br>
+   <br>
+   <label for="mobile_no"> Your Mobile number (required): <br> <select name="num" id="num">
+     <option value="india"> +91 IND </option>
+      <option value="usa"> +44 USA </option>
+      <option value="france"> +33 FRA </option> 
+     <option value="sweden"> +46 SWE </option>
+     <option value="canada"> +1 CAN </option>
+     <option value="italy"> +39 ITA </option> 
+      </label>
+    <br>
+    <input type="text" id="mobile_no" placeholder="Enter your mobile number" required> <br>
+    <br>
+   <br>
+   <div class="gender">
+   
+      <span> Choose your gender: </span> <br>
+   <br> <label for="female"> FEMALE </label>  <input type="radio"  name="gender" id="female" > 
+
+     <label for="male"> MALE &nbsp;&nbsp; </label>
+   <input type="radio"  name="gender" id="male" > 
+
+     <label for="others"> OTHERS </label>
+   <input type="radio" name="gender" id="others">
+  
+   </div>
+   <br>
+   <label for="message"> Message: </label>
+   <br>
+   <textarea name="message" id="message" cols="80" rows="4"> </textarea> 
+   <br>
+   <label for="address"> Address: </label>
+    <br>
+    <textarea name="address" id="address" cols="80" rows="4"> </textarea> 
+   <br>
+
+   <p class="para"> your prefered mode of communication: <br> <input type="radio" name="comm" id="email"> <label for="email"> &nbsp;&nbsp; email &nbsp;&nbsp; </label> <br> <input type="radio" name="comm" id="mobile_no"> <label for="mobile_no"> mobile no. </label> </p>
+     <input type="submit" value="contact us">
+ </form>
+      <br>
+      <div class="box">
+      <p> for queries contact: <br>
+        ph.no: +1800 2122 2121 <br>
+        email: jkl@outlook.com</p>
+      </div>
+     </div>
+    
+    
+  </body>
+</html>
